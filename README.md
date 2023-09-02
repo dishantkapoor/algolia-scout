@@ -11,6 +11,8 @@ Install algolia-scout with npm
 ```bash
   npm install algolia-scout
 ```
+
+![Logo](https://raw.githubusercontent.com/dishantkapoor/algolia-scout/main/files/image.jpg)
     
 ## Methods
 

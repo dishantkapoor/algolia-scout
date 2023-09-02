@@ -1,12 +1,40 @@
 {
   "name": "algolia-scout",
   "version": "0.0.1",
-  "description": "Directly Update and Create Entries at algolia from your mongoose model",
+  "description": "Directly Update and Create Entries at algolia from your mongoose model events",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dishantkapoor/algolia-scout.git"
+  },
   "scripts": {
     "test": "node test.js"
   },
   "author": "Dishant Kapoor",
+  "keywords": [
+    "algolia",
+    "algolia-scout",
+    "algolia autopush",
+    "algolia middleware",
+    "algolia auto push",
+    "algolia scout",
+    "algolia mongoose",
+    "algolia-mongoose",
+    "algolia mongoose middleware",
+    "algolia auto upload",
+    "algolia auto update",
+    "algolia auto delete",
+    "algolia model event",
+    "algolia search",
+    "algolia mongoose events",
+    "algolia upload on save",
+    "algolia update on update",
+    "algolia delete on delete"
+  ],
+  "bugs": {
+    "url": "https://github.com/dishantkapoor/algolia-scout/issues"
+  },
+  "homepage": "https://github.com/dishantkapoor/algolia-scout#readme",
   "license": "ISC",
   "dependencies": {
     "algoliasearch": "^4.18.0"
