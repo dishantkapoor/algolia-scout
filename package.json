@@ -1,0 +1,14 @@
+{
+  "name": "algolia-scout",
+  "version": "0.0.1",
+  "description": "Directly Update and Create Entries at algolia from your mongoose model",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "author": "Dishant Kapoor",
+  "license": "ISC",
+  "dependencies": {
+    "algoliasearch": "^4.18.0"
+  }
+}
