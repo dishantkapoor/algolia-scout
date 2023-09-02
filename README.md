@@ -12,6 +12,53 @@ Install algolia-scout with npm
   npm install algolia-scout
 ```
     
+## Methods
+
+- algolia.create()
+- algolia.update()
+- algolia.delete()
+
+
+## Explaination
+algolia.create()
+
+```javascript
+const AlgoliaScout = require('algolia-scout');
+
+const algolia = new AlgoliaScout();
+
+algolia.index('your_index_name');
+algolia.app_id('YOUR_APP_ID');
+algolia.app_secret('YOUR_APP_SECRET');
+
+algolia.create(OBJECT, Idetifier_Key, Identifier_Value)
+
+```
+- OBJECT=the object needs to puch on algolia
+- Idetifier_Key=Key is parameter to check duplicacy
+- Identification_value= Value is need to validate duplicacy 
+
+example:
+
+OBJECT
+```javascript 
+{
+    _id:'ajsdjkashdjkahsdkjahsd',
+    name:'Dishant Kapoor',
+    email:'dishantkpr@gmail.com'
+}
+```
+
+Idetifier_Key
+```javascript 
+'_id'
+```
+
+Identification_value
+```javascript 
+'ajsdjkashdjkahsdkjahsd'
+```
+
 ## Documentation
 
 ```javascript
